@@ -185,7 +185,7 @@ const LESSONS_DATA = {
           <obj n="ب">نافذة الموديولات المفتوحة: في الوسط، تضم منطقة الشرائح ومنطقة العمل والتحرير.</obj>
           <obj n="ج">قائمة المهام Task Pane: على اليمين، توفر: هيكلية الإطار، مكتبة العنصر، الأشكال التلقائية، السيناريوهات، ونماذج التصميم.</obj>
         `,
-        videoSrc: "", videoType: "none",
+        videoSrc: "https://youtu.be/qBw5F0aSWFg?si=ye1IIBydifXpuhYC", videoType: "youtube",
         note: "احفظ بيانات التفعيل في مكان آمن للرجوع إليها عند الحاجة.",
         support: [
           "فصل الإنترنت أثناء التفعيل خطوة أساسية لا تتجاهلها.",
@@ -257,7 +257,7 @@ const LESSONS_DATA = {
           <obj n="1">استعراض الوحدة كاملة: وحدة تعليمية ← عرض الوحدة أو F5.</obj>
           <obj n="2">استعراض الشريحة الحالية فقط: Shift + F5.</obj>
         `,
-        videoSrc: "", videoType: "none",
+        videoSrc: "https://youtu.be/UjeQ40DzPuA?si=_3kSEgi8XoblKhSH", videoType: "youtube",
         note: "لا تظهر تحديثات أسماء الشرائح إلا عند الاستعراض الكامل.",
         support: [
           "الشريحة الرئيسية توفر عليك تكرار التصميم لكل شريحة.",
@@ -335,7 +335,7 @@ const LESSONS_DATA = {
           <obj n="ب">صوت: زر أيمن على الكائن ← Format ← تبويب Sound ← استعراض الملف.</obj>
           <obj n="ج">كائن خارجي (PDF/جداول/روابط): Insert ← Object ← External File.</obj>
         `,
-        videoSrc: "", videoType: "none",
+        videoSrc: "https://youtu.be/_2qiRUgLUtU?si=NPoI6K0qZf7UkBkk", videoType: "youtube",
         note: "استخدم GIF/JPG/PNG لضمان التوافق مع المتصفحات وتقليل حجم الملف.",
         support: [
           "النقر المزدوج على أي كائن يفتح نافذة خصائصه.",
@@ -411,7 +411,7 @@ const LESSONS_DATA = {
           <h4>القوائم Lists</h4>
           <p>كائن لإنشاء قوائم متسلسلة. أنواعها: مسطرة، بسيطة، قياسية، ورسوم متحركة. تُضاف من مكتبة الكائنات ← Lists. تُضبط عبر تبويبات: عرض، تأثيرات، أصوات.</p>
         `,
-        videoSrc: "", videoType: "none",
+        videoSrc: "https://youtu.be/z0GLUB5tEOo?si=D9brvwgKQNQRvCmf", videoType: "youtube",
         note: "الأحداث Events هي قلب التفاعلية في CourseLab، تعلّمها جيداً.",
         support: [
           "البالون يظهر عند OnMouseOver ويختفي عند OnMouseOut.",
@@ -485,7 +485,7 @@ const LESSONS_DATA = {
           <h4>الخط الزمني Time Line</h4>
           <p>من عرض ← خط الزمن. مخطط لجميع كائنات الإطار الحالي. الجانب الأيسر = بداية الظهور، الأيمن = النهاية. الحد الأدنى للفترة بين مؤشرين: 0.7 ثانية.</p>
         `,
-        videoSrc: "", videoType: "none",
+        videoSrc: "https://youtu.be/ybcxJSR2nAY?si=OwINKwU9hFeOk0DQ", videoType: "youtube",
         note: "استخدم الخط الزمني لإنشاء تسلسل ظهور تدريجي يشد انتباه المتعلم.",
         support: [
           "التأثير Wipe Down من أكثر التأثيرات استخداماً وأنسبها.",
@@ -568,10 +568,10 @@ const LESSONS_DATA = {
            مثال الرابط: "https://youtu.be/XXXXXXXXXXX"
            videoType لكل فيديو: "youtube" | "local" | "none"        */
         videos: [
-          { title: "الفيديو الأول — أنواع الأسئلة",      videoSrc: "", videoType: "none" },
-          { title: "الفيديو الثاني — إضافة سؤال جديد",   videoSrc: "", videoType: "none" },
-          { title: "الفيديو الثالث — إعدادات الاختبار",  videoSrc: "", videoType: "none" },
-          { title: "الفيديو الرابع — التغذية الراجعة",   videoSrc: "", videoType: "none" },
+          { title: "الفيديو الأول — أنواع الأسئلة",      videoSrc: "https://youtu.be/9M9rPqC1zJA?si=l6PTCyNvSnpNMvi3", videoType: "youtube" },
+          { title: "الفيديو الثاني — إضافة سؤال جديد",   videoSrc: "https://youtu.be/0_7FCPcrbLA?si=Jz-BlQ8T8z8OF5xF", videoType: "youtube" },
+          { title: "الفيديو الثالث — إعدادات الاختبار",  videoSrc: "https://youtu.be/sjbfmFAr20c?si=grT32gtLACFu8T0u", videoType: "youtube" },
+          { title: "الفيديو الرابع — التغذية الراجعة",   videoSrc: "https://youtu.be/64Wi6PlPa_8?si=Ge0FVm7MiRErC7Kt", videoType: "youtube" },
         ],
         videoSrc: "", videoType: "none",
         note: "الكائن Test أقوى من Questions لأنه يجمع الاختبار كاملاً في مكان واحد.",
