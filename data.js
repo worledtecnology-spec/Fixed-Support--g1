@@ -109,7 +109,7 @@ const LESSONS_DATA = {
           <obj n="3">مساحة قرص صلب لا تقل عن 80 ميجابايت.</obj>
           <obj n="4">تفعيل JavaScript ودعم XML.</obj>
         `,
-        videoSrc: "https://youtu.be/PcuTfY8lkec?si=DqVn5PQW2znlLFsa", videoType: "youtube",
+        videoSrc: "https://youtu.be/nXykzgkTChc?si=vlufRHiDxODBb06t", videoType: "youtube",
         note: "ركّز على الفرق بين الإطار والشريحة والوحدة لأنه مفتاح فهم البرنامج.",
         support: [
           "CourseLab من أقوى أدوات تأليف المحتوى العربية مجاناً.",
