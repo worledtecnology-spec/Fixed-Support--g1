@@ -22,17 +22,19 @@
 
 html, body {
     margin: 0;
-    height: 100%;
-    overflow: hidden;
+    min-height: 100%;
     background: var(--bg-main);
     color: var(--text-main);
     font-family: 'Cairo', sans-serif;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    overflow-x: hidden;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .page-content {
@@ -40,7 +42,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 /* ========== الهيدر ========== */
@@ -156,6 +163,7 @@ body {
 
 .card {
     width: 300px;
+    max-width: 100%;
     background: var(--card-bg);
     border-radius: 16px;
     padding: 16px 20px;
@@ -205,29 +213,30 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; /* بدل center */
-  padding: 10px 20px 0; /* قلل المسافة من فوق */
-  overflow: hidden;
+  padding: 10px 20px 24px; /* قلل المسافة من فوق */
   position: relative;
 }
 
-/* Decorative background blobs */
+/* Decorative background blobs — مثبّتة على الشاشة (fixed) حتى لا تُضيف مساحة تمرير زائدة خارج حدود المحتوى الفعلي */
 .aims-section::before {
   content: '';
-  position: absolute;
+  position: fixed;
   width: 320px; height: 320px;
   background: radial-gradient(circle, rgba(45,212,191,0.12) 0%, transparent 70%);
   top: -60px; left: -80px;
   border-radius: 50%;
   pointer-events: none;
+  z-index: -1;
 }
 .aims-section::after {
   content: '';
-  position: absolute;
+  position: fixed;
   width: 260px; height: 260px;
   background: radial-gradient(circle, rgba(10,133,69,0.10) 0%, transparent 70%);
   bottom: -40px; right: -60px;
   border-radius: 50%;
   pointer-events: none;
+  z-index: -1;
 }
 
 .aims-title-block {
@@ -383,6 +392,7 @@ body {
 </head>
 <body>
 
+<div class="topbar">
 <div class="header">
     <div class="support-badge">✨ نمط الدعم الثابت</div>
     <div class="header-title">
@@ -399,6 +409,7 @@ body {
   <a href="contact.html" target="_self">📞 اتصل بنا</a>
 
 </nav>
+</div>
 
 
 <div class="aims-section">

@@ -22,24 +22,31 @@
 
 html, body {
     margin: 0;
-    height: 100%;
-    overflow: hidden;
+    min-height: 100%;
     background: var(--bg-main);
     color: var(--text-main);
     font-family: 'Cairo', sans-serif;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    overflow-x: hidden;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .page-content {
     flex: 1;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+}
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 /* ========== الهيدر ========== */
@@ -155,6 +162,7 @@ body {
 
 .card {
     width: 300px;
+    max-width: 100%;
     background: var(--card-bg);
     border-radius: 16px;
     padding: 16px 20px;
@@ -200,6 +208,7 @@ body {
 </head>
 <body>
 
+<div class="topbar">
 <div class="header">
     <div class="support-badge">✨ نمط الدعم الثابت</div>
     <div class="header-title">
@@ -214,6 +223,7 @@ body {
   <a href="mods.html" target="_self">📖 المحتوى التعليمي</a>
   <a href="poster.html" target="_self">📢 لوحة الإعلانات</a>
   <a href="contact.html" target="_self">📞 اتصل بنا</a>
+</div>
 </div>
 
 <div class="page-content">
